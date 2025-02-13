@@ -56,8 +56,6 @@ function playGame() {
 
         playRound(humanSelection, computerSelection);
     }
-    console.log(humanScore);
-    console.log(computerScore);
     if (humanScore === computerScore) {
         console.log("YOUR SCORE: " + humanScore);
         console.log("COMPUTER'S SCORE: " + computerScore);
